@@ -1,0 +1,16 @@
+# Hyper-V / VM disks and checkpoints
+*.vhd
+*.vhdx
+*.avhd
+*.avhdx
+*.vmcx
+*.vmrs
+*.iso
+
+# Common large/log files
+*.log
+*.evtx
+
+# Windows junk
+Thumbs.db
+Desktop.ini
