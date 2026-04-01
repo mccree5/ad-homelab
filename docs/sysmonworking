@@ -1,0 +1,5 @@
+### Session Update — Sysmon Installed (CLIENT01)
+- Transferred Sysmon installer from host to lab network via SMB share and copied files locally to `CLIENT01`.
+- Installed and started **Sysmon64** on `CLIENT01`.
+- Verified Sysmon is running and writing events to: Microsoft → Windows → Sysmon → Operational.
+- Next: apply/tune a Sysmon configuration and forward Sysmon + Security logs into a SIEM (Wazuh) for SOC-style alerting and triage.
