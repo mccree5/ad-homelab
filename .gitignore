@@ -1,16 +1,19 @@
-# Hyper-V / VM disks and checkpoints
-*.vhd
-*.vhdx
-*.avhd
-*.avhdx
-*.vmcx
-*.vmrs
-*.iso
+# Credentials — never commit
+*.xml
+secure/
+*.cred
+*.pfx
+*.key
 
-# Common large/log files
+# Audit log output — contains usernames and timestamps
 *.log
-*.evtx
+jml-audit.log
 
-# Windows junk
+# Local config overrides
+config.local.ps1
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
 Thumbs.db
-Desktop.ini
